@@ -1,0 +1,518 @@
+What is the static variable? What is its use?
+
+Explanation:
+A variable which is declared static, is known as a static variable. These variables are able to retain its value between multiple function calls.
+
+Syntax:
+
+static int y=10;//static variable
+
+Static variables are used because these variables can be accessed from anywhere in the program.
+
+Static variables are used as common values and are shared by all the methods.
+
+Question 13:
+What is the difference between call by value and call by reference in C?
+
+Explanation:
+ 	
+Call by Value
+
+Call by Reference
+
+Description
+
+When a copy of the variable is passed to the function, the original value remains unchanged.
+
+When a copy of the value is passed to the function, the original value gets changed.
+
+Memory location
+
+Formal arguments and actual arguments are created in separate locations in the memory.
+
+Formal arguments and actual arguments are created in the same locations in the memory.
+
+Safety
+
+Actual arguments are reliable as they cannot be modified.
+
+Actual arguments are not reliable as they can be modified
+
+Question 14:
+What is Recursion in C?
+
+Explanation:
+Recursion is the process where a function calls itself. This function is known as a recursive function. There are 2 phases of recursion:-
+
+Winding phase - when a recursive function calls itself, this phase reaches its end when the condition is fulfilled.
+Unwinding phase - when the condition is fulfilled, this phase starts and the control is returned to the original call.
+Question 15:
+What is a pointer in C? What are its uses?
+
+Explanation:
+A pointer is a variable referring to the address of a value. When a variable is declared inside a program, the system allocates some memory to it. This memory contains an address number. The variables that hold this address number are called pointer variables.
+
+Syntax: Data_type *p;
+
+P is a pointer variable holding the address number of data_type value.
+
+  Uses of Pointer:-
+
+Pointers are used in accessing elements through an array.  Pointers are used to pass a reference of a variable to another function.
+
+Question 16:
+What is a NULL pointer and far pointer?
+
+Explanation:
+Null Pointer - Null pointer is a pointer that does not refer to any address of value but to NULL.  When "0" is assigned to a pointer of any type, it creates a Null pointer.
+Far Pointer - A far pointer is a pointer that can access all the 16 segments, i.e. the whole residence memory of the RAM.  It is a 32 bit pointer that obtains information from outside the memory in a given section.
+Question 17:
+What is a dangling pointer? How is it overcome?
+
+Explanation:
+Dangling pointer is a problem that arises when an object is deleted without modifying the value of the pointer. Thus the pointer is now pointing to a deallocated memory.
+
+In other words, if a pointer say A is pointing to a memory location, but another pointer B deletes the memory occupied by A while A is still pointing to that location, A becomes a dangling pointer.
+
+The problem is overcome by assigning a NULL value to the dangling pointer.
+After de-allocating the memory from a pointer variable, the pointer is assigned to a NULL value.
+Thus the pointer is not pointing to any memory location, therefore it's no longer a dangling pointer.
+Question 18:
+What is an infinite loop?
+
+Explanation:
+A loop running continuously for an indefinite number of times is called the infinite loop.
+
+Question 19:
+What is a command line argument?
+
+Explanation:
+The argument passed to the main() function while executing the program is known as a command line argument.
+
+Question 20:
+Can we compile a program without the main() function?
+
+Explanation:
+We can compile a program without the main() function, however the program won’t be executed. However adding #define, we can compile and run the program without using the main() function.
+
+Question 21:
+What is an object and class?
+
+Explanation:
+Object - It is a collection of methods and classes which represent its state and execute operations.
+Class - It is used to define new types of data which is then used to create objects.
+Question 22:
+What do you mean by JVM, JDK and JRE?
+
+Explanation:
+JVM - Java Virtual Machine. Offers runtime environment for cods to be executed.
+JRE - Java Runtime Environment. It's the collection of files that are needed during runtime by JVM.
+JDK - Java Development Kit. It is a kit which contains the tools necessary to write and execute a program.
+Question 23:
+How can you restrict inheritance?
+
+Explanation:
+By the following methods:
+
+Using the final keyword.
+Making the method final.
+Using private constructor.
+Using (//) Javadoc comment
+Question 24:
+What are static methods and static variables?
+
+Explanation:
+They are methods and variables shared by all the objects in a class. Their static nature comes from the class and not from the object itself.
+
+Question 25:
+What is enumeration?
+
+Explanation:
+It is an interface you can use to access original data structure.
+
+Question 26:
+What is the use of ‘this’ keyword in JAVA?
+
+Explanation:
+‘this’ keyword is used to refer to a current object, to invoke the current class method or class constructor.
+
+It is also used to pass on as an argument into methods or constructors.
+
+Question 27:
+What is the final variable?
+
+Explanation:
+In Java, the  final variable is used to restrict the users from updating the variable.  The final variable once assigned can not be changed after that.
+
+Question 28:
+Why is JAVA platform independent?
+
+Explanation:
+Java is platform independent because of its byte codes which can run on any system regardless of its operating systems.
+
+Question 29:
+What are access modifiers in Java?
+
+Explanation:
+Access modifiers are special keywords that can restrict the access of a class, constructor, data member and method in another class. They are of 4 types:-
+
+Default
+Private
+Protected
+Public.
+Question 30:
+What is method overloading?
+
+Explanation:
+It is a polymorphism technique that allows us to create multiple methods with the same name but different signatures.
+
+Question 31:
+What is interpreted language?
+
+Explanation:
+An interpreted language executes its statements line by line. Interpreted language codes can run directly from the source code with no intermediary compilation step.
+
+Question 32:
+What are lists and tuples?
+
+Explanation:
+Lists and tuples are sequence data types.  The objects stored in both the sequences can have different data types.
+
+List are represented by square brackets [“”,’’]
+Tuples are represented by round brackets (“”,””)
+The difference between the two is that lists are mutable while tuples are immutable. Which means that lists can be modified while tuples can not be modified.
+Question 33:
+What is pass in Python?
+
+Explanation:
+Pass keyword represents a null operation in python. Used for the purpose of filling up empty block code which may execute during runtime, but are yet to be written
+
+Question 34:
+What is self in Python?
+
+Explanation:
+Self is a keyword that defines an instance of an object of a class. It is explicitly used as the first parameter.
+
+Question 35:
+What is slicing in Python?
+
+Explanation:
+Slicing is used to break up a list or tuple.
+
+Start: it is the starting index from where the list is sliced
+Stop: It is the ending index where the list is stop
+Step: It is the number of steps to jump
+Syntax:
+
+[start:stop:step]
+
+Question 36:
+What is the use of break statement?
+
+Explanation:
+It is used to terminate the execution of the current loop.
+Break statement, breaks the current execution and transfer control to outside the current block.
+Question 37:
+What is an operator in Python?
+
+Explanation:
+Operator is a symbol, which is used on some values and produces an output as a result. Operator works on operands.
+
+Operators are of unary, binary or ternary types depending on the number of operands required.
+
+They include:-
+
+Arithmetic
+Relational
+Assignment
+Logical
+Identify
+Bitwise
+Question 38:
+What is swapcase() function in Python?
+
+Explanation:
+It is a string function which converts all uppercase characters into lowercase and vice versa.
+It is used for altering the existing case of the string.
+This method creates a copy of the string which contains all the characters in the swap case.
+Question 39:
+What is the  Python decorator?
+
+Explanation:
+It is a powerful tool that allows you to add functionality in an existing code. It is also known as meta-programming.
+
+Question 40:
+What is the difference between Python Arrays and lists?
+
+Explanation:
+                    ARRAYS
+
+                        LISTS
+
+Contains elements of the same data types.
+
+Contains elements of different data types.
+
+Consumes far less memory than lists.
+
+Consumes a large amount of memory
+
+Question 41:
+What is DBMS?
+
+Explanation:
+DBMS stands for Database Management System. It carries out operations like creation, maintenance and use of a database.
+
+Question 42:
+What are tables, fields and record?
+
+Explanation:
+Tables: Data organized in a model with Rows and Columns is called a table. Rows are horizontal while tables are vertical.
+Fields: In a table there are a specified number of columns known as fields.
+Records: There are infinite number of rows which is called a record.
+Question 43:
+What is Foreign Key?
+
+Explanation:
+Foreign Key is a key which links 2 tables.
+
+It is a field or a collection of fields in a table that corresponds to the Primary Key of another table.
+
+Question 44:
+What is the difference between DELETE and TRUNCATE?
+
+Explanation:
+DELETE
+
+TRUNCATE
+
+This command will delete a row of a table.
+
+This command will delete a row of a table.
+
+Rollback of data is not possible.
+
+Rollback of data is possible.
+
+It is a DML command.
+
+It is a DDL command.
+
+It is comparatively slower.
+
+It is comparatively faster.
+
+Question 45:
+What is a constraint?
+
+Explanation:
+Constraints are limitations on the data type of a given table. Samples of constraints are:
+
+Not Null
+Check
+Default
+Question 46:
+What is ACID property in a database?
+
+Explanation:
+Atomicity - It states each transaction is all or nothing. If one part of the transaction fails, the entire transaction fails.
+Consistency - It states that data must follow all validation rules. A transaction never leaves the database without being completed.
+Isolation - Isolation provides concurrency control. It ensures that concurrent property of execution should not be met.
+Durability - Once a transaction is committed it will remain committed regardless of the situation, power loss, crashes etc.
+Question 47:
+What is SQL?
+
+Explanation:
+SQL stands for Structured Query Language and is used to communicate with the Database. It is a standard language for accessing and manipulating databases.
+
+Question 48:
+What is a unique key?
+
+Explanation:
+A Unique key constraint identifies each record in the database. It provides for the column or set of columns.
+A unique key is a set of one or more than one field of a table that can uniquely identify a record in a database table.
+Question 49:
+What is a relationship and what are they?
+
+Explanation:
+Relationship is the interconnection of tables within the database. There are various relationships,
+
+One to One Relationship.
+One to Many Relationship.
+Many to One Relationship.
+Self-Referencing Relationship.
+Question 50:
+What is a query?
+
+Explanation:
+A query is really a request for data. A DB query is a code written in order to get the information back from the database. You ask the database for something and it answers in the best way it knows with data as a result of a query.
+
+Question 51:
+What is Machine Learning?
+
+Explanation:
+Machine Learning is the science of getting computers to act in a real-time situation without being programmed explicitly. It is an application of AI and it enables systems to learn automatically and to improve from previous experience.
+
+Question 52:
+What is Supervised, Unsupervised and Semi-Supervised learning?
+
+Explanation:
+Supervised learning - The model is trained on labeled data, and then it predicts based on the labeled data, Therefore it requires a supervisor to train the data.
+Unsupervised learning - The model is trained on unlabeled data. The model tries to find patterns and relationships in the data and classify them accordingly.
+Semi-Supervised Learning - It uses some amount of labeled data and a large amount of unlabeled data. The goal is to classify unlabeled data with the help of labeled data.
+Question 53:
+What are training set and test set in Machine Learning and why are they important?
+
+Explanation:
+Training set is a set given to the model for training, analyzing and learning.
+Test set is a set used for testing the model locally before using it in a real time application.
+Question 54:
+Explain the stages of building a Machine Learning model.
+
+Explanation:
+Data Collection: Appropriate data is collected using either some algorithm or manually.
+Data Processing: The collected data is processed by handling all the null values, categories etc.
+Model Building: The algorithms to create the model is decided and built.
+Model Evaluation: The model is evaluated using techniques such as accuracy score, z score etc.
+Model Saving and Testing: The model is saved for future use and real time testing is done.
+Question 55:
+How does IoT work?
+
+Explanation:
+Iot is built on the concept of AI. An IoT device has a sensor which collects data, the cloud facilitates the network between the devices, the software processes and stores the data and finally the UI enables the device to respond to the stimulation.
+
+Question 56:
+What is Natural Language Processing?
+
+Explanation:
+Natural language processing is a branch of Artificial Intelligence that deals with the conversion of Human Language to Machine Understandable language, so it can be processed by Machine Learning models.
+
+Question 57:
+What is IIOT?
+
+Explanation:
+IIOT(Industrial Internet of Things) are large scale IoT structures or systems that are used at the industrial level.
+
+Question 58:
+What is Deep Learning?
+
+Explanation:
+Deep Learning is a subset of machine learning. It is a neural network with multiple layers, which creates a stimulation of the human brain, allowing the model to lean from large amounts of data.
+
+Question 59:
+What is Arduino?
+
+Explanation:
+It is an open source electronics platform based on easy-to-use hardware and software. Arduino boards can read input and turn it into an output.
+
+Question 60:
+What is Neural Network?
+
+Explanation:
+Neural Network is a replication of the firing of neurons in our brain, which facilitates learning, although on a less complex scale.
+
+Question 61:
+What do you mean by Open-source Hardware?
+
+Explanation:
+Open source hardware is similar to open source software.
+Ardunio is open source. The source code for which the Java environment is released under the GPL and C/C++ is under LGPL.
+Question 62:
+What is Raspberry Pi?
+
+Explanation:
+Raspberry Pi is a microcomputer that can be connected to a peripheral device. We can execute a number of tasks in a Raspberry Pi including, creating spreadsheets,  coding, games etc.
+
+Question 63:
+How is Raspberry Pi used in IoT?
+
+Explanation:
+Raspberry Pi is a platform to develop many IoT based applications. IoT requires a network of devices and software to connect and exchange data. Raspberry Pi can provide this platform for it.
+
+Question 64:
+List any two real-life applications of Natural language processing.
+
+Explanation:
+Google Translate
+Chat bots
+Siri, Alexa
+Question 65:
+What is Ethical Hacking?
+
+Explanation:
+Ethical Hacking is when a person is allowed to hack the system with the permission of the owner to find any bug in the system and to fix it.
+
+Question 66:
+What is the difference between IP and MAC address?
+
+Explanation:
+IP Address -  IP address is assigned to a device so that it can be located on the network.
+MAC Address - MAC Address is a unique serial number assigned to every network interface on every device.
+Question 67:
+Explain LAN
+
+Explanation:
+LAN or Local Area Network is used to connect devices such that they are able to share resources and exchange information. LAN is of two types, wireless LAN and wired LAN.
+
+Question 68:
+What is VPN?
+
+Explanation:
+VPN or Virtual Private Network is a private Wide Area Network built on the Internet. It allows the creation of a secured tunnel between different networks using the internet. VPN allows a client to connect to a network remotely.
+
+Question 69:
+What are Private and Special IP addresses?
+
+Explanation:
+Private Address: These are specific IPs that are reserved specifically for private use only. These are non rout-able and cannot be used by the devices on the internet.
+Special Address: IP Range from 127.0.0.1 to 127.255.255.255 are network testing addresses also known as loop-back addresses. These are the special IP addresses.
+Question 70:
+What is DNS?
+
+Explanation:
+DNS is the Domain Name System. It basically translates the domain name of their corresponding IPs. It uses port 53 by default.
+
+Question 71:
+What is the main purpose of an OS? What are the different types of OS?
+
+Explanation:
+The function of an OS is to execute user programs and make it easier for the users to interact with the system. It is designed to ensure that the system performs better by managing all computational activities.
+
+Types of OS:
+
+Batched OS (Example: Payroll System, Transactions Process, etc.
+Multi-Programmed OS (Example: Windows O/S, UNIX O/S, etc.)
+Timesharing OS (Example: Multics, etc.
+Distributed OS (LOCUS, etc.)
+Real-Time OS (PSOS, VRTX, etc.)
+Question 72:
+What is GUI?
+
+Explanation:
+GUI or Graphical User Interface is an interface that allows users to use graphics to interact with the OS. Its function is to make the OS more user friendly and less complex.  Instead of having to memorize commands, users can just click on a button and execute the procedure.
+
+Question 73:
+What do you mean by RTOS?
+
+Explanation:
+Real Time Operating System of RTOS is a type of OS used for real time applications. It is used for tasks that are needed to be executed within a short period of time. It's designed for applications where data processing should be done in a fixed and small measure of time.
+
+Question 74:
+Name some of the most famous OS.
+
+Explanation:
+MS-Windows
+Ubuntu
+Mac OS
+Fedora
+Solaris
+Free BSD
+Chrome OS
+CentOS
+Debian
+Android
+Question 75:
+What is IPC?
+
+Explanation:
+IPC or Interprocess Communication is a mechanism that requires the use of resources like memory that is shared between processes or threads. With IPC, the OS allows different processes to communicate with each other.  It is simply used for exchanging data between multiple threads in one or more programs or processes.
