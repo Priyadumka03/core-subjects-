@@ -1,0 +1,158 @@
+What is the static variable? What is its use?
+What is the difference between call by value and call by reference in C?
+What is Recursion in C?
+What is a pointer in C? What are its uses?
+What is a NULL pointer and far pointer?
+What is a dangling pointer? How is it overcome?
+What is an infinite loop?
+What is a command line argument?
+Can we compile a program without the main() function?
+What is an object and class?
+What do you mean by JVM, JDK, and JRE?
+How can you restrict inheritance?
+What are static methods and static variables?
+What is enumeration?
+What is the use of the ‘this’ keyword in JAVA?
+What is the final variable?
+Why is JAVA platform independent?
+What are access modifiers in Java?
+What is method overloading?
+What is an interpreted language?
+What are lists and tuples?
+What is pass in Python?
+What is self in Python?
+What is slicing in Python?
+What is the use of the break statement?
+What is an operator in Python?
+What is the swapcase() function in Python?
+What is a Python decorator?
+What is the difference between Python Arrays and lists?
+What is DBMS?
+What are tables, fields, and records?
+What is a Foreign Key?
+What is the difference between DELETE and TRUNCATE?
+What is a constraint?
+What is ACID property in a database?
+What is SQL?
+What is a unique key?
+What is a relationship and what are they?
+What is a query?
+What is Machine Learning?
+What is Supervised, Unsupervised, and Semi-Supervised learning?
+What are the training set and test set in Machine Learning and why are they important?
+Explain the stages of building a Machine Learning model.
+How does IoT work?
+What is Natural Language Processing?
+What is IIOT?
+What is Deep Learning?
+What is Arduino?
+What is a Neural Network?
+What do you mean by Open-source Hardware?
+What is Raspberry Pi?
+How is Raspberry Pi used in IoT?
+List any two real-life applications of Natural Language Processing.
+What is Ethical Hacking?
+What is the difference between IP and MAC address?
+Explain LAN.
+What is VPN?
+What are Private and Special IP addresses?
+What is DNS?
+What is the main purpose of an OS? What are the different types of OS?
+What is GUI?
+What do you mean by RTOS?
+Name some of the most famous OS.
+What are the components of an OS?
+What are primary and secondary memory?
+What are multitasking and multithreading in an OS?
+What is process synchronization?
+What is the difference between segmentation and paging in an OS?
+What is a microkernel?
+What is meant by deadlock in an OS?
+What is a scheduling algorithm?
+What is a file system in an OS?
+What is caching?
+What is virtualization in an OS?
+What is a compiler?
+What is an assembler?
+What is the difference between an interpreter and a compiler?
+What is source code and object code?
+What are macros in C?
+What is the role of an operating system in managing resources?
+What is the difference between a process and a thread?
+What are the states of a process in an OS?
+What are interrupts in an OS?
+What is the difference between cooperative multitasking and preemptive multitasking?
+What is process scheduling in an OS?
+What is a real-time system?
+What is a bootstrap program?
+What is thrashing in an OS?
+What is a time-sharing operating system?
+What is the role of a device driver in an OS?
+What are the layers of TCP/IP protocol?
+What is the difference between TCP and UDP?
+What is HTTP?
+What is HTTPS, and how is it different from HTTP?
+What is a network protocol?
+What is a subnet mask?
+What is NAT in networking?
+What is the OSI model?
+What are the seven layers of the OSI model?
+What is a gateway in networking?
+What is the role of the network layer?
+What is a MAC address?
+What is IP addressing?
+What is a firewall?
+What is the difference between IPv4 and IPv6?
+What is packet switching?
+What is a DNS server?
+What is ICMP used for in networking?
+What is a domain name system (DNS)?
+What is load balancing?
+What is a proxy server?
+What are the differences between intranet and internet?
+What is a network topology?
+What is a ring topology?
+What is a star topology?
+What is a bus topology?
+What is a hybrid topology?
+What is a network bridge?
+What is the purpose of a router?
+What is a VLAN?
+What is the difference between static and dynamic routing?
+What is bandwidth in networking?
+What is latency in networking?
+What is jitter in networking?
+What is DNS propagation?
+What is meant by the term "middleware"?
+What is cryptography?
+What is a hash function?
+What is symmetric encryption?
+What is asymmetric encryption?
+What is SSL?
+What is a digital certificate?
+What is a security token?
+What is two-factor authentication?
+What is a honeypot in cybersecurity?
+What is phishing?
+What is ransomware?
+What is a botnet?
+What is malware?
+What is the difference between a virus and a worm?
+What is a Trojan horse in cybersecurity?
+What is penetration testing?
+What is a zero-day vulnerability?
+What is an SQL injection attack?
+What is a denial-of-service (DoS) attack?
+What is cross-site scripting (XSS)?
+What is a buffer overflow attack?
+What is spoofing in networking?
+What is a virtual private network (VPN)?
+What is the difference between hashing and encryption?
+What is digital forensics?
+What is an IDS and an IPS?
+What is multi-factor authentication (MFA)?
+
+
+
+
+
